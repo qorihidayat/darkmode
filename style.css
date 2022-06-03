@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    transition: all .3s;
+}
+
+.box{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #aedaf3;
+    background-color: #88daf3b9;
+    margin: 0 auto;
+    border-radius: 100px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.toggleBoxOn{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #2b2b2b;
+    background-color: #202020b9;
+    transition: all .3s;
+    transform: translateX(0);
+    border-radius: 50%;
+}
+
+.toggleBoxOff{
+    width: 30px;
+    height: 30px;
+    transition: all .3s;
+    transform: translateX(68px);
+    border: 1px solid #fffefe;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+
+.dark{
+background-color: #2b2b2b;
+}
